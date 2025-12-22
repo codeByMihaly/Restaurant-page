@@ -1,4 +1,4 @@
-import {greeting} from "./greeting.js";
+import "./greeting.js";
+import "./styles.css";
+import "./template.html";
 
-console.log(greeting);
-console.log("csicska");

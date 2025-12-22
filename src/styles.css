@@ -1,0 +1,127 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+ 
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+#headerId {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(rgb(1, 1, 36), rgb(7, 2, 77));
+}
+
+ 
+
+#navId {
+  display: flex;
+  gap: 5em;
+}
+
+ 
+
+.header-buttons {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  padding: 0.4em 0.6em;
+  cursor: pointer;
+  background-color: rgba(255, 3, 3, 0.808);
+  color: rgb(7, 2, 77);
+  font-weight: 900;
+  border: none;
+  border-radius: 0.5em;
+}
+
+ 
+
+.header-buttons:hover {
+  background-color: rgba(255, 3, 3, 0.608);
+}
+
+ 
+
+.header-buttons:active {
+  background-color: rgba(255, 3, 3, 0.508);
+}
+
+ 
+
+#content {
+  text-align: center;
+  color:rgb(49, 41, 150);
+  margin: 1em 5em 2em;
+  flex: 1;
+}
+
+ 
+
+#footerId {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1.5em;
+  background: radial-gradient(rgb(1, 1, 36), rgb(7, 2, 77));
+  color: rgb(49, 41, 150);
+}
+
+ 
+
+#header1Home {
+  font-size: 2.5rem;
+  padding: 0.3em 0;
+}
+
+ 
+
+#imgHome {
+  padding: 0.3em 0;
+}
+
+ 
+
+#header3Home {
+  padding: 0.3em 0;
+}
+
+ 
+
+#para1Home {
+  padding: 0.3em 0;
+}
+
+ 
+
+#btn1Home {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  padding: 0.4em 0.6em;
+  cursor: pointer;
+  background-color: rgba(255, 3, 3, 0.808);
+  color: rgb(7, 2, 77);
+  font-weight: 900;
+  border: none;
+  border-radius: 0.5em;
+}
+
+ 
+
+#btn1Home:hover {
+  background-color: rgba(255, 3, 3, 0.608);
+}
+
+ 
+
+#btn1Home:active {
+  background-color: rgba(255, 3, 3, 0.508);
+}
