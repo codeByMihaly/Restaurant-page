@@ -37,3 +37,5 @@ homeButton.addEventListener('click', () => {
 window.onload = () => {
   navigate("home");
 }
+
+export default homeSide;

@@ -13,3 +13,5 @@ function aboutSide() {
 aboutButton.addEventListener('click',() => {
   navigate("about");
 });
+
+export default aboutSide;

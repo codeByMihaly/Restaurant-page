@@ -1,10 +1,10 @@
-import "./home.js";
-import "./menu.js";
-import "./about.js";
+import homeSide from "./home.js";
+import menuSide from "./menu.js";
+import aboutSide from "./about.js";
 import "./styles.css";
 import "./template.html";
 
-function navigate(page) {
+export default function navigate(page) {
     content.innerHTML = "";
   if (page === "home") {
     homeSide();
@@ -14,5 +14,3 @@ function navigate(page) {
     aboutSide();
   }
 }
-
-export default navigate;

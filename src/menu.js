@@ -10,6 +10,7 @@ function menuSide() {
   content.appendChild(para1);
 } 
 
-
 menuButton.addEventListener('click', () => {
   navigate("menu")});
+
+  export default menuSide;
