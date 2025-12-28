@@ -7,9 +7,9 @@ import "./template.html";
 export default function navigate(page) {
     content.innerHTML = "";
   if (page === "home") {
-    menuSide();
-  } else if (page === "menu") {
     homeSide();
+  } else if (page === "menu") {
+    menuSide();
   } else if (page === "about") {
     aboutSide();
   }
