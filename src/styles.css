@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
- 
-
 body {
   display: flex;
   flex-direction: column;
@@ -26,14 +24,10 @@ body {
   top: 0;
 }
 
- 
-
 #navId {
   display: flex;
   gap: 5em;
 }
-
- 
 
 .header-buttons {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -47,13 +41,9 @@ body {
   border-radius: 0.5em;
 }
 
- 
-
 .header-buttons:hover {
   background-color: rgba(255, 3, 3, 0.608);
 }
-
- 
 
 .header-buttons:active {
   background-color: rgba(255, 3, 3, 0.508);
@@ -79,8 +69,6 @@ body {
   color: rgb(49, 41, 150);
 }
 
- 
-
 /*-------------- Home Side ----------------*/
 
 #header1Home {
@@ -88,27 +76,19 @@ body {
   padding: 0.3em 0;
 }
 
- 
-
 #imgHome {
   padding: 0.3em 0;
   width: 400px;
   height: auto;
 }
 
- 
-
 #header3Home {
   padding: 0.3em 0;
 }
 
- 
-
 #para1Home {
   padding: 0.3em 0;
 }
-
- 
 
 #btn1Home {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -122,18 +102,13 @@ body {
   border-radius: 0.5em;
 }
 
- 
-
 #btn1Home:hover {
   background-color: rgba(255, 3, 3, 0.608);
 }
 
- 
-
 #btn1Home:active {
   background-color: rgba(255, 3, 3, 0.508);
 }
-
 
 /*-------------- Menu Side ----------------*/
 
@@ -165,7 +140,6 @@ body {
 
 .about-contact {
   text-align: left;
-  
 }
 
 
