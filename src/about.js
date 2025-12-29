@@ -36,7 +36,6 @@ const contactData = {
   /* ------ Restaurant opening hours ------- */
   const openingHours = document.createElement("p");
   openingHours.textContent = contactData.hours;
-  openingHours.id = "opening-hours"
   openingHours.style.whiteSpace = "pre-line";
 
   /* ------ This is the map side ------- */
