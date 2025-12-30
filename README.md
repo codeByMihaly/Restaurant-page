@@ -1,6 +1,5 @@
-**A restaurant page**
+# A restaurant page
  
- **Restaurant Page:**
 A single‑page restaurant website built as part of The Odin Project curriculum.
 All content is dynamically generated using modular JavaScript, and the project is fully bundled with Webpack to ensure clean structure and efficient asset handling.
 
